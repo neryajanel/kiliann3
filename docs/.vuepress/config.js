@@ -32,6 +32,11 @@ module.exports = {
       title: "Chatino",
       description: "El mejor lugar para Aprender Chatino gratis",
     },
+    "/mx/chichimeco/": {  
+      lang: "Chichimeco", // this will be set as the lang attribute on <html>
+      title: "Chichimeco",
+      description: "El mejor lugar para Aprender Chichimeco gratis",
+    },
     "/mx/chinanteco/": {  
       lang: "Chinanteco", // this will be set as the lang attribute on <html>
       title: "Chinanteco",
@@ -187,6 +192,19 @@ module.exports = {
             /* ... */
           ],
           "/mx/chatino/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/mx/chichimeco/": {
+        label: "Chichimeco",
+        selectText: "Chichimeco",
+        nav: require("./nav/chichimeco"),
+        sidebar: {
+          "/mx/chichimeco": [
+            /* ... */
+          ],
+          "/mx/chichimeco/guide/": [
             /* ... */
           ],
         },
